@@ -93,6 +93,7 @@ function endGame() {
   document.removeEventListener('keydown', moveDodger)
   
   START.innerHTML("Play Again?")
+  START.style.display
 }
 
 function moveDodger(e) {
