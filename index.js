@@ -113,7 +113,7 @@ function endGame() {
 function moveDodger(e) {
   const key = e.which
   
-  
+  if 
 }
 
 function moveDodgerLeft() {
