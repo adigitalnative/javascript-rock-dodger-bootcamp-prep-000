@@ -88,6 +88,8 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval)
+  
+  rocks.forEach()
 }
 
 function moveDodger(e) {
