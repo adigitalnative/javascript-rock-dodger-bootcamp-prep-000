@@ -92,7 +92,7 @@ function endGame() {
   ROCKS.forEach(function(rock) {rock.remove() })
   document.removeEventListener('keydown', moveDodger)
   
-  START.
+  START.innerHTML("Play Again?")
 }
 
 function moveDodger(e) {
