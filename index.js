@@ -122,7 +122,9 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  window.requestAnimationFrame(function(e)
+  window.requestAnimationFrame(function() {
+    
+  }
 }
 
 function moveDodgerRight() {
