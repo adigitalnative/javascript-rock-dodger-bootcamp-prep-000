@@ -113,7 +113,11 @@ function endGame() {
 function moveDodger(e) {
   const key = e.which
   
-  if 
+  if (key === LEFT_ARROW) {
+    moveDodgerLeft();
+  } else if (key === RIGHT_ARROW) {
+    moveDodgerRight();
+  }
 }
 
 function moveDodgerLeft() {
@@ -127,6 +131,7 @@ function moveDodgerLeft() {
 }
 
 function moveDodgerRight() {
+  alert("bang")
   // implement me!
   /**
    * This function should move DODGER to the right
